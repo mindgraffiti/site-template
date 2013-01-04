@@ -20,7 +20,7 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	
-<!-- Google Analytics Change UA-XXXXX-X to be your site's ID --> 
+<!-- Google Analytics Change UA-XXXXX-X to be client's site ID --> 
 
 <script type="text/javascript">
 	var _gaq = _gaq || [];
@@ -211,10 +211,7 @@
 </form>
 <hr>
 
-	<!--#include file ="/AJIncludes/APIMasterInclude.aspx"-->
-		<% string isRegAssn = "AAA"; string isRegNum = "12345678";%>
-		<%=ExecuteWebMethod("GetPedigreeTableCustomFmt", isRegAssn, isRegNum, true) %>
-		<div class="epdall"><%=ExecuteWebMethod("GetEpdTableCustomFmt", isRegAssn, isRegNum, true, true, true, true) %></div>
+	<!-- add asp.net include here -->
 <hr>
 	
 	</div><!--End content-->
@@ -253,7 +250,7 @@
 	</div><!--End wrapper-->
 
 	<div id="api"><!--Start api -->
-		Designed and hosted by <a href="http://www.angusproductions.com/api_webservices.html">API Web Services</a>
+		Designed and hosted by <a href="http://api-webservices.com">API Web Services</a>
 	</div><!--End api -->
 
 </div><!--End container -->
